@@ -38,7 +38,7 @@ public class DummyServlet extends HttpServlet {
             out.println("<title>Servlet DummyServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet DummyServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h2>Servlet DummyServlet at " + request.getContextPath() + "</h2>");
             out.println("</body>");
             out.println("</html>");
         } finally {            
